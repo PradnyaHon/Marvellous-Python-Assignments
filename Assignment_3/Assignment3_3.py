@@ -1,0 +1,10 @@
+def min_of_elements():
+    n = int(input("Enter number of elements: "))
+    numbers = [int(input(f"Element {i+1}: ")) for i in range(n)]
+    print("Output:", min(numbers))
+
+def main():
+    min_of_elements()
+
+if __name__ == "__main__":
+    main()
